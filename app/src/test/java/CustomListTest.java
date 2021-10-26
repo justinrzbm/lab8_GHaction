@@ -23,5 +23,5 @@ public class CustomListTest {
         assertEquals(list.getCount(), listSize+1);
     }
 
-    
+
 }
