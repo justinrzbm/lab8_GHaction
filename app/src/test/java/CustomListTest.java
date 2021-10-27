@@ -45,10 +45,10 @@ public class CustomListTest {
 
     @Test
     public void countCityTest(){
-        assertEquals(1, list.countCities());
+        assertEquals(0, list.countCities());
         City city = new City("city1", "province1");
         list.add(city);
-        assertEquals(2, list.countCities());
+        assertEquals(1, list.countCities());
     }
 
 }
